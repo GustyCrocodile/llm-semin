@@ -1,0 +1,992 @@
+[
+  {
+    "query": "[word=\"say\"][word=\"happy\"]",
+    "description": "Find sequence 'say happy'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"get\"]",
+    "description": "Find lemma 'get'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lc=\"sad\"]",
+    "description": "Find 'sad' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"book|house\"]",
+    "description": "Find either 'book' or 'house'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"car\"][]{0,1}[word=\"book\"]",
+    "description": "Find 'car' within 1 words of 'book'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"think\"][tag=\"VBN\"]",
+    "description": "Find 'think' followed by VBN",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"car\"][tag=\"IN\"]",
+    "description": "Find 'car' followed by IN",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"tree\"][](0, 10)[word=\"jump\"] within <s/>",
+    "description": "Find 'tree' and 'jump' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"run\"][tag=\"VBG\"]",
+    "description": "Find 'run' followed by VBG",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"un.*\"]",
+    "description": "Find words matching pattern 'un.*'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"run\"][]{0,5}[word=\"think\"]",
+    "description": "Find 'run' within 5 words of 'think'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"those\"][tag=\"NN.*\"]",
+    "description": "Find 'those' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"DT\"][tag=\"JJ.*\"][tag=\"NN.*\"]",
+    "description": "Find determiner + adjective + noun pattern",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"for\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'for'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"cat|tree\"]",
+    "description": "Find either 'cat' or 'tree'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"DT\"][tag=\"JJ.*\"][tag=\"NN.*\"]",
+    "description": "Find determiner + adjective + noun pattern",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"slowly\"][](0, 10)[word=\"cat\"] within <s/>",
+    "description": "Find 'slowly' and 'cat' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[tag=\"DT\"][tag=\"JJ.*\"][tag=\"NN.*\"]",
+    "description": "Find determiner + adjective + noun pattern",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"happy\"][word=\"think\"][word=\"read\"]",
+    "description": "Find sequence 'happy think read'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"jump\"][](0, 10)[word=\"say\"] within <s/>",
+    "description": "Find 'jump' and 'say' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"happy\"][]{0,3}[word=\"house\"]",
+    "description": "Find 'happy' within 3 words of 'house'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"re.*\"]",
+    "description": "Find words matching pattern 're.*'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"tree\"][word=\"quickly\"]",
+    "description": "Find sequence 'tree quickly'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"sad\"][word=\"read\"][word=\"house\"]",
+    "description": "Find sequence 'sad read house'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lc=\"run\"]",
+    "description": "Find 'run' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"cat\"][word=\"book\"]",
+    "description": "Find sequence 'cat book'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lc=\"dog\"]",
+    "description": "Find 'dog' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[tag=\"DT\"][tag=\"JJ.*\"][tag=\"NN.*\"]",
+    "description": "Find determiner + adjective + noun pattern",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"car\"][]{0,4}[word=\"dog\"]",
+    "description": "Find 'car' within 4 words of 'dog'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"happy\"]",
+    "description": "Find exact word 'happy'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"this\"][tag=\"NN.*\"]",
+    "description": "Find 'this' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[tag=\"MD\"]",
+    "description": "Find words with POS tag 'MD'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"book\"][tag=\"RB\"]",
+    "description": "Find 'book' followed by RB",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"sad\"][](0, 10)[word=\"write\"] within <s/>",
+    "description": "Find 'sad' and 'write' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[tag=\"VBG\"]",
+    "description": "Find words with POS tag 'VBG'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"run\"]",
+    "description": "Find exact word 'run'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"sad\"][word=\"say|slowly\"]",
+    "description": "Find 'sad' followed by 'say' or 'slowly'",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"jump\"][word=\"sad\"][word=\"think\"]",
+    "description": "Find sequence 'jump sad think'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lc=\"read\"]",
+    "description": "Find 'read' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"car\" & tag=\"MD\"]",
+    "description": "Find 'car' with POS tag MD",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"cat\"][](1, 3)[word=\"sad\"]",
+    "description": "Find 'cat' and 'sad' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"do\"]",
+    "description": "Find lemma 'do'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"sad\"]",
+    "description": "Find exact word 'sad'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"book\"][word=\"jump\"]",
+    "description": "Find sequence 'book jump'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lc=\"dog\"]",
+    "description": "Find 'dog' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"slowly\"]",
+    "description": "Find exact word 'slowly'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[tag=\"VB\"]",
+    "description": "Find words with POS tag 'VB'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"run\" & tag=\"JJ\"]",
+    "description": "Find 'run' with POS tag JJ",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"happy\"][](1, 3)[word=\"cat\"]",
+    "description": "Find 'happy' and 'cat' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"DT\"][tag=\"JJ.*\"][tag=\"NN.*\"]",
+    "description": "Find determiner + adjective + noun pattern",
+    "complexity": "complex"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"for\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'for'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"tree|quickly\"]",
+    "description": "Find either 'tree' or 'quickly'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"house\"][word=\"car|happy\"]",
+    "description": "Find 'house' followed by 'car' or 'happy'",
+    "complexity": "complex"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word!=\"think\"]",
+    "description": "Find any word except 'think'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\".*ed\"]",
+    "description": "Find words matching pattern '.*ed'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lemma=\"do\"]",
+    "description": "Find lemma 'do'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"book\"][word=\"write\"]",
+    "description": "Find sequence 'book write'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"sad|cat\"]",
+    "description": "Find either 'sad' or 'cat'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"do\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'do' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"say\"]",
+    "description": "Find lemma 'say'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"car\"][word=\"house\"]",
+    "description": "Find sequence 'car house'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word!=\"happy\"]",
+    "description": "Find any word except 'happy'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"write\"][word=\"sad\"]",
+    "description": "Find sequence 'write sad'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"slowly\"][](1, 3)[word=\"car\"]",
+    "description": "Find 'slowly' and 'car' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"slowly\"][](0, 10)[word=\"dog\"] within <s/>",
+    "description": "Find 'slowly' and 'dog' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"think\"][](0, 10)[word=\"write\"] within <s/>",
+    "description": "Find 'think' and 'write' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"run\"][word=\"write\"][word=\"slowly\"]",
+    "description": "Find sequence 'run write slowly'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"book\" & tag=\"DT\"]",
+    "description": "Find 'book' with POS tag DT",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"happy\"][](1, 3)[word=\"quickly\"]",
+    "description": "Find 'happy' and 'quickly' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"want\"]",
+    "description": "Find lemma 'want'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lemma=\"be\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'be' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"cat\"][word=\"sad|book\"]",
+    "description": "Find 'cat' followed by 'sad' or 'book'",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"those\"][tag=\"NN.*\"]",
+    "description": "Find 'those' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"sad|tree\"]",
+    "description": "Find either 'sad' or 'tree'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"say\"][word=\"cat\"]",
+    "description": "Find sequence 'say cat'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"car\"][](0, 10)[word=\"tree\"] within <s/>",
+    "description": "Find 'car' and 'tree' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word!=\"jump\"]",
+    "description": "Find any word except 'jump'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\".*ed\"]",
+    "description": "Find words matching pattern '.*ed'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"those\"][tag=\"NN.*\"]",
+    "description": "Find 'those' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"from\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'from'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[tag=\"VB\"]",
+    "description": "Find words with POS tag 'VB'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"cat\"][tag=\"NN\"]",
+    "description": "Find 'cat' followed by NN",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"that\"][tag=\"NN.*\"]",
+    "description": "Find 'that' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\".*ing\"]",
+    "description": "Find words matching pattern '.*ing'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lemma=\"say\"]",
+    "description": "Find lemma 'say'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lemma=\"make\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'make' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"have\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'have' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"sad\"][word=\"write\"][word=\"say\"]",
+    "description": "Find sequence 'sad write say'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"jump|happy\"]",
+    "description": "Find either 'jump' or 'happy'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"say\" & tag=\"PRP\"]",
+    "description": "Find 'say' with POS tag PRP",
+    "complexity": "complex"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word!=\"think\"]",
+    "description": "Find any word except 'think'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"tree\"][word=\"car|book\"]",
+    "description": "Find 'tree' followed by 'car' or 'book'",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"happy\"][word=\"quickly\"][word=\"house\"]",
+    "description": "Find sequence 'happy quickly house'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"the\"][tag=\"NN.*\"]",
+    "description": "Find 'the' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"jump\"]",
+    "description": "Find exact word 'jump'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word!=\"car\"]",
+    "description": "Find any word except 'car'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lc=\"house\"]",
+    "description": "Find 'house' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"car\"][word=\"dog|house\"]",
+    "description": "Find 'car' followed by 'dog' or 'house'",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"think\"]",
+    "description": "Find exact word 'think'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lc=\"quickly\"]",
+    "description": "Find 'quickly' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[tag=\"VBG\"]",
+    "description": "Find words with POS tag 'VBG'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"happy\"][]{0,3}[word=\"write\"]",
+    "description": "Find 'happy' within 3 words of 'write'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"a\"][tag=\"NN.*\"]",
+    "description": "Find 'a' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"with\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'with'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"sad\" & tag=\"VBG\"]",
+    "description": "Find 'sad' with POS tag VBG",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"dog\"][](0, 10)[word=\"tree\"] within <s/>",
+    "description": "Find 'dog' and 'tree' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"re.*\"]",
+    "description": "Find words matching pattern 're.*'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"slowly\"][word=\"sad\"]",
+    "description": "Find sequence 'slowly sad'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"book\"][word=\"jump\"]",
+    "description": "Find sequence 'book jump'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"dog\"][word=\"cat\"][word=\"house\"]",
+    "description": "Find sequence 'dog cat house'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"DT\"][tag=\"JJ.*\"][tag=\"NN.*\"]",
+    "description": "Find determiner + adjective + noun pattern",
+    "complexity": "complex"
+  },
+  {
+    "query": "[lemma=\"look\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'look' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"book\"][word=\"write|slowly\"]",
+    "description": "Find 'book' followed by 'write' or 'slowly'",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"think\"]",
+    "description": "Find exact word 'think'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"jump\"][tag=\"DT\"]",
+    "description": "Find 'jump' followed by DT",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"quickly\"][](1, 3)[word=\"car\"]",
+    "description": "Find 'quickly' and 'car' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"MD\"]",
+    "description": "Find words with POS tag 'MD'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lemma=\"have\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'have' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"sad\"][]{0,3}[word=\"slowly\"]",
+    "description": "Find 'sad' within 3 words of 'slowly'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"DT\"][tag=\"JJ.*\"][tag=\"NN.*\"]",
+    "description": "Find determiner + adjective + noun pattern",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word!=\"slowly\"]",
+    "description": "Find any word except 'slowly'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"tell\"]",
+    "description": "Find lemma 'tell'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"to\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'to'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"slowly\"][word=\"book\"][word=\"read\"]",
+    "description": "Find sequence 'slowly book read'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"think\"][word=\"book\"][word=\"dog\"]",
+    "description": "Find sequence 'think book dog'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"run\"][tag=\"PRP\"]",
+    "description": "Find 'run' followed by PRP",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"run\"][word=\"house\"][word=\"car\"]",
+    "description": "Find sequence 'run house car'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"the\"][tag=\"NN.*\"]",
+    "description": "Find 'the' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"house\"]",
+    "description": "Find exact word 'house'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lc=\"book\"]",
+    "description": "Find 'book' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word!=\"house\"]",
+    "description": "Find any word except 'house'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"read\"][tag=\"JJ\"]",
+    "description": "Find 'read' followed by JJ",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"run\"][](1, 3)[word=\"jump\"]",
+    "description": "Find 'run' and 'jump' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"this\"][tag=\"NN.*\"]",
+    "description": "Find 'this' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"that\"][tag=\"NN.*\"]",
+    "description": "Find 'that' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"dog\"][](0, 10)[word=\"jump\"] within <s/>",
+    "description": "Find 'dog' and 'jump' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"those\"][tag=\"NN.*\"]",
+    "description": "Find 'those' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"a\"][tag=\"NN.*\"]",
+    "description": "Find 'a' followed by a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"sad\"][word=\"dog\"]",
+    "description": "Find sequence 'sad dog'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"jump\"][tag=\"VBN\"]",
+    "description": "Find 'jump' followed by VBN",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"tell\"]",
+    "description": "Find lemma 'tell'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"slowly\"]",
+    "description": "Find exact word 'slowly'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"un.*\"]",
+    "description": "Find words matching pattern 'un.*'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lemma=\"think\"]",
+    "description": "Find lemma 'think'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"to\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'to'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"house\"][](0, 10)[word=\"run\"] within <s/>",
+    "description": "Find 'house' and 'run' within same sentence",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"book\"][word=\"run\"][word=\"write\"]",
+    "description": "Find sequence 'book run write'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"come\"]",
+    "description": "Find lemma 'come'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"re.*\"]",
+    "description": "Find words matching pattern 're.*'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lemma=\"think\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'think' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"car\"][](1, 3)[word=\"run\"]",
+    "description": "Find 'car' and 'run' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"MD\"][tag=\"VB\"]",
+    "description": "Find modal verb followed by base verb",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word!=\"think\"]",
+    "description": "Find any word except 'think'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"cat\"][word=\"dog|run\"]",
+    "description": "Find 'cat' followed by 'dog' or 'run'",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"sad|say\"]",
+    "description": "Find either 'sad' or 'say'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"quickly\"]",
+    "description": "Find exact word 'quickly'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\".*ing\"]",
+    "description": "Find words matching pattern '.*ing'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"read\" & tag=\"VBN\"]",
+    "description": "Find 'read' with POS tag VBN",
+    "complexity": "complex"
+  },
+  {
+    "query": "[tag=\"VBG\"]",
+    "description": "Find words with POS tag 'VBG'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"tree\"][word=\"jump\"][word=\"book\"]",
+    "description": "Find sequence 'tree jump book'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"DT\"][tag=\"JJ.*\"][tag=\"NN.*\"]",
+    "description": "Find determiner + adjective + noun pattern",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"slowly\"][tag=\"RB\"]",
+    "description": "Find 'slowly' followed by RB",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"RB\"]",
+    "description": "Find words with POS tag 'RB'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[lc=\"run\"]",
+    "description": "Find 'run' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"think\"][tag=\"VBN\"]",
+    "description": "Find 'think' followed by VBN",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"RB\"]",
+    "description": "Find words with POS tag 'RB'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"say\"][](1, 3)[word=\"run\"]",
+    "description": "Find 'say' and 'run' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"cat\"][](1, 3)[word=\"house\"]",
+    "description": "Find 'cat' and 'house' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"book\"][]{0,4}[word=\"sad\"]",
+    "description": "Find 'book' within 4 words of 'sad'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[lemma=\"get\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'get' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"run\"][]{0,4}[word=\"jump\"]",
+    "description": "Find 'run' within 4 words of 'jump'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"write\"][tag=\"JJ\"]",
+    "description": "Find 'write' followed by JJ",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"write\"][]{0,5}[word=\"cat\"]",
+    "description": "Find 'write' within 5 words of 'cat'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"at\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'at'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"at\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'at'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[lemma=\"look\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'look' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"think|book\"]",
+    "description": "Find either 'think' or 'book'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"tree\" & tag=\"VBG\"]",
+    "description": "Find 'tree' with POS tag VBG",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\"from\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'from'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[lc=\"slowly\"]",
+    "description": "Find 'slowly' (case-insensitive)",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"house\"][word=\"think|jump\"]",
+    "description": "Find 'house' followed by 'think' or 'jump'",
+    "complexity": "complex"
+  },
+  {
+    "query": "[lemma=\"tell\"][](0, 2)[tag=\"NN\"]",
+    "description": "Find lemma 'tell' within 2 words of a noun",
+    "complexity": "medium"
+  },
+  {
+    "query": "[tag=\"IN\"]",
+    "description": "Find words with POS tag 'IN'",
+    "complexity": "simple"
+  },
+  {
+    "query": "[word=\"tree\"][]{0,1}[word=\"dog\"]",
+    "description": "Find 'tree' within 1 words of 'dog'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"on\"][tag=\"DT\"]?[tag=\"JJ\"]?[tag=\"NN.*\"]",
+    "description": "Find prepositional phrase starting with 'on'",
+    "complexity": "advanced"
+  },
+  {
+    "query": "[word=\"read\"][](1, 3)[word=\"run\"]",
+    "description": "Find 'read' and 'run' with 1-3 words between",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"dog\"][word=\"slowly\"]",
+    "description": "Find sequence 'dog slowly'",
+    "complexity": "medium"
+  },
+  {
+    "query": "[word=\"cat\" & tag=\"JJ\"]",
+    "description": "Find 'cat' with POS tag JJ",
+    "complexity": "complex"
+  },
+  {
+    "query": "[word=\".*ing\"]",
+    "description": "Find words matching pattern '.*ing'",
+    "complexity": "simple"
+  }
+]

@@ -1,0 +1,320 @@
+LIETVĀRDS
+Kodifikators
+n - substantīvs (noun)
+Tips 
+c - sugas vārds (common) 
+p - īpašvārds (proper)
+Dzimte
+m - vīriešu (masculine) 
+f - sieviešu (feminine) 
+0 - nepiemīt 
+Skaitlis 
+s - vienskaitlis (singular) 
+p - daudzskaitlis (plural) 
+v - vienskaitlinieks (singulare tantum) 
+d - daudzskaitlinieks (plurale tantum) 
+0 - nepiemīt 
+Locījums 
+n - nominatīvs (nominative) 
+g - ģenitīvs (genitive) 
+d - datīvs (dative) 
+a - akuzatīvs (accusative) 
+l - lokatīvs (locative) 
+v - vokatīvs (vocative) 
+0 - nepiemīt
+Deklinācija 
+1 - 1. deklinācija 
+2 - 2. deklinācija 
+3 - 3. deklinācija 
+4 - 4. deklinācija 
+5 - 5. deklinācija 
+6 - 6. deklinācija
+0 - nepiemīt
+g - ģenitīvenis (genitive)
+r - atgriezenisks (reflexive)
+
+DARBĪBAS VĀRDS
+Kodifikators 
+v - verbs (verb)
+Tips 
+m - patstāvīgs (main) 
+o - modāls (modal) 
+p - fāzes (phasal) 
+e - izpausmes veida (expression) 
+c - palīgverbs "būt" (to be as auxiliary or copula)
+t - saitiņverbi "kļūt" (other copulas)
+a - palīgverbi “tikt”, “tapt” (other auxiliaries)
+Atgriezeniskums 
+n - nē (no; non-reflexive) 
+y - jā (yes; reflexive)
+Izteiksme 
+i - īstenības (indicative) 
+r - atstāstījuma (relative) 
+c - vēlējuma (conditional) 
+d - vajadzības (debitive) 
+m - pavēles (imperative) 
+n - nenoteiksme (infinitive) 
+p - divdabis (participle)
+Laiks
+p - tagadne (present) 
+f - nākotne (future) 
+s - pagātne (past) 
+0 - nepiemīt
+Pārejamība 
+t - pārejošs (transitive) 
+i - nepārejošs (intransitive) 
+Konjugācija 
+1 - 
+2 - 
+3 - 
+i - nekārtnais (irregular)
+Persona 
+1 - sēžu
+2 - sēdi
+3 - sēž
+0 - nepiemīt 
+Skaitlis 
+s - vienskaitlis (singular) 
+p - daudzskaitlis (plural) 
+0 - nepiemīt 
+Kārta
+a - darāmā (active) 
+0 - nepiemīt
+Noliegums 
+n - nē (no) 
+y - jā (yes)
+
+DARBĪBAS VĀRDA DIVDABJA FORMA
+Kodifikators 
+v - verbs (verb)
+Tips 
+m - patstāvīgs (main)
+o - modāls (modal) 
+p - fāzes (phasal) 
+e - izpausmes veida (expression) 
+c - palīgverbs "būt" (to be as auxiliary or copula)
+t - saitiņas "kļūt", "tapt" (other copulas)
+a - palīgverbi “tikt”, “tapt” (other auxiliaries)
+Atgriezeniskums 
+n - nē (no; non-reflexive) mazgādams
+y - jā (yes; reflexive) mazgādamās
+Izteiksme 
+i - īstenības (indicative) 
+r - atstāstījuma (relative) 
+c - vēlējuma (conditional) 
+d - vajadzības (debitive) 
+m - pavēles (imperative) 
+n - nenoteiksme (infinitive) 
+p - divdabis (participle)
+Lokāmība 
+d - lokāms (declinable)
+p - daļēji lokāms (partially decl.)
+u - nelokāms (undeclinable)
+Dzimte 
+m - vīriešu (masculine) 
+f - sieviešu (feminine) 
+0 - nepiemīt
+Skaitlis 
+s - vienskaitlis (singular) 
+p - daudzskaitlis (plural) 
+0 - nepiemīt
+Locījums 
+n - nominatīvs (nominative) 
+g - ģenitīvs (genitive) 
+d - datīvs (dative) 
+a - akuzatīvs (accusative) 
+l - lokatīvs (locative) 
+v - vokatīvs (vocative)
+0 - nepiemīt 
+Kārta 
+a - darāmā (active) 
+p - ciešamā (passive)
+0 - nepiemīt
+Laiks 
+p - tagadne (present) 
+s - pagātne (past) 
+0 - nepiemīt
+Noteiktība 
+n - nenoteiktais (no) 
+y - noteiktais (yes) 
+0 - nepiemīt 
+Pakāpe 
+p - pamata (positive) 
+c - pārākā (comparative) 
+s - vispārākā (superlative) 
+0 - nepiemīt
+Noliegums 
+n - nē (no)
+y - jā (yes)
+
+ĪPAŠĪBAS VĀRDS
+Kodifikators 
+a - adjektīvs (adjective)
+Tips 
+f - kādības (qualificative) 
+r - attieksmes (relative) 
+Dzimte 
+m - vīriešu (masculine) 
+f - sieviešu (feminine) 
+0 - nepiemīt (not applicable)
+Skaitlis 
+s - vienskaitlis (singular) 
+p - daudzskaitlis (plural) 
+0 - nepiemīt (not applicable) 
+Locījums 
+n - nominatīvs (nominative) 
+g - ģenitīvs (genitive) 
+d - datīvs (dative) 
+a - akuzatīvs (accusative) 
+l - lokatīvs (locative) 
+v - vokatīvs (vocative) 
+0 - nepiemīt (not applicable) 
+Noteiktība 
+n - nenoteiktais (no) 
+y - noteiktais (yes) 
+Pakāpe 
+p - pamata (positive) 
+c - pārākā (comparative)
+s - vispārākā (superlative)
+
+SKAITĻA VĀRDS
+Kodifikators
+m - numerālis (numeral)
+Tips 
+c - pamata (cardinal) 
+o - kārtas (ordinal) 
+f - daļskaitlis (fractal)
+Uzbūve 
+s - vienkāršs (simple) 
+c - saliktenis (compound) 
+Dzimte 
+m - vīriešu (masculine) 
+f - sieviešu (feminine) 
+0 - nepiemīt
+Skaitlis 
+s - vienskaitlis (singular) 
+p - daudzskaitlis (plural)
+Locījums 
+n - nominatīvs (nominative) 
+g - ģenitīvs (genitive) 
+d - datīvs (dative) 
+a - akuzatīvs (accusative) 
+l - lokatīvs (locative) 
+v - vokatīvs (vocative)
+0 - nepiemīt
+
+VIETNIEKVĀRDS
+Kodifikators 
+p - pronomens (pronoun)
+tips 
+p - personas (personal)
+x - atgriezeniskais (reflexive) 
+s - piederības (possesive) 
+d - norādāmais (demonstrative) 
+i - nenoteiktais (indefinite) 
+q - jautājamais (interrogative) 
+r - attieksmes (relative) 
+g - noteiktais (definite)
+Persona 
+1 - 
+2 - 
+3 - 
+0 - nepiemīt
+Dzimte 
+m - vīriešu (masculine) 
+f - sieviešu (feminine) 
+0 - nepiemīt
+Skaitlis 
+s - vienskaitlis (singular) 
+p - daudzskaitlis (plural) 
+0 - nepiemīt
+Locījums 
+n - nominatīvs (nominative) 
+g - ģenitīvs (genitive) 
+d - datīvs (dative) 
+a - akuzatīvs (accusative) 
+l - lokatīvs (locative)
+Noliegums 
+n - nē (no)
+y - jā (yes) 
+
+APSTĀKĻA VĀRDS
+kodifikators
+r - adverbs (adverb)
+pakāpe
+p - pamata (positive)
+c - pārākā (comparative) 
+s - vispārākā (superlative) 
+0 - nepiemīt 
+grupa
+q - mēra (quantitative) 
+m - veida (manner)
+p - vietas (place)
+t - laika (time)
+prievārdisks
+y - jā (yes)
+n - nē (no)
+
+PRIEVĀRDS 
+kodifikators
+s - prepozīcija (preposition)
+novietojums
+p - pirms (pre)
+t - pēc (post)
+skaitlis
+s - vienskaitlis (singular) 
+p - daudzskaitlis (plural)
+0 - nepiemīt
+rekcija
+g - ģenitīvs (genitive)
+d - datīvs (dative)
+a - akuzatīvs (accusative)
+0 - nepiemīt
+
+SAIKLIS 
+kodifikators
+c - konjunkcija (conjunction)
+tips
+c - sakārtojuma (coordinating)
+s - pakārtojuma (subordinating) 
+
+IZSAUKSMES VĀRDS 
+kodifikators 
+i - interjekcija (interjection) 
+
+PARTIKULA 
+kodifikators 
+q - partikula (particle)
+
+SAĪSINĀJUMS 
+kodifikators 
+y - saīsinājums (abbreviation) 
+tips
+n - sugasvārds (common noun) 
+p - īpašvārds (proper noun) 
+a - īpašības vārds (adjective)
+v - verbāls (verbal) 
+r - apstāklis (adverb)
+d - diskursa iezīmētāji (discourse)
+
+PIETURZĪME 
+kodifikators 
+z - pieturzīme (punctuation)
+tips
+c - komats (comma)
+q - pēdiņa (quote) 
+s - punkts (stop)
+b - iekava (bracket)
+d - defise/domu zīme (hyphen/dash)
+o - kols (colon)
+x - citi
+
+CITAS TEKSTVIENĪBAS 
+kodifikators 
+x - bezmorfoloģijas elements (residual)
+tips
+f - vārds svešvalodā (foreign)
+n - skaitlis cipariem (numeral)
+o - kārtas skaitlis cipariem (ordinal) 
+u - URI
+x - citi
