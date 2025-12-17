@@ -1,0 +1,23 @@
+Distance between tokens, repetition
+examples of ‘have’ and ‘opinion’ with 2 to 4 words in between	
+[lemma="have"] [ ]{2,4}[lemma="opinion"]
+
+find examples of ‘drink’ and ‘water’ with exactly two adjectives between them	[lemma="drink"] [tag="J.*"]{2}[lemma="water"]
+
+find examples of ‘refill’ and ‘kettle’ with one word in between	[lemma="refill"] [ ] [lemma="kettle"]
+
+300
+
+Starting with, ending with or containing
+words starting with confus-	[lemma="confus.*"]
+words ending with -ious	[lemma=".*ious"]
+three-letter words starting b- and ending -g	[lemma="b.g"]
+
+200
+
+AND OR NOT inside values
+[ lemma="test" & tag="N.*" ] 	find all forms of the word ‘test’ which is a noun
+[word="test" & tag!="V.*"]
+[word="test" & !tag="V.*"]	finds word ‘test’ which is NOT a verb both CQL codes are equivalent
+[ word="round" & ( tag="N.*" | tag="V.*" ) ]	finds the word round tagged as a noun or verb
+

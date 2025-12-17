@@ -1,0 +1,746 @@
+[
+{
+    "cql": "lemma=\"piens\"",
+    "prompt": "leksēmu \"piens\"",
+    "type": "L",
+    "response": [
+        "pienu",
+        "pienu",
+        "piena",
+        "piena",
+        "pienā"
+    ]
+},
+{
+    "cql": "lemma=\"brīvība\"",
+    "prompt": "leksēmu \"brīvība\"",
+    "type": "L",
+    "response": [
+        "brīvība",
+        "brīvību",
+        "brīvība",
+        "brīvība",
+        "brīvības"
+    ]
+},
+{
+    "cql": "lemma=\"čaklums\"",
+    "prompt": "leksēmu \"čaklums\"",
+    "type": "L",
+    "response": [
+        "čaklumu",
+        "čaklumu",
+        "čaklumu",
+        "čaklumu",
+        "čakluma"
+    ]
+},
+{
+    "cql": "lemma=\"Saldus\"",
+    "prompt": "leksēmu \"Saldus\"",
+    "type": "L",
+    "response": [
+        "Saldus",
+        "Saldus",
+        "Saldus",
+        "Saldus",
+        "Saldus"
+    ]
+},
+{
+    "cql": "lemma=\"Vidriži\"",
+    "prompt": "leksēmu \"Vidriži\"",
+    "type": "L",
+    "response": [
+        "Vidrižu",
+        "Vidrižus",
+        "Vidrižu",
+        "Vidrižu",
+        "Vidrižu"
+    ]
+},
+{
+    "cql": "lemma=\"brilles\"",
+    "prompt": "leksēmu \"brilles\"",
+    "type": "L",
+    "response": [
+        "briļļu",
+        "brilles",
+        "brilles",
+        "brilles",
+        "brilles"
+    ]
+},
+{
+    "cql": "lemma=\"eksāmens\"",
+    "prompt": "leksēmu \"eksāmens\"",
+    "type": "L",
+    "response": [
+        "eksāmenu",
+        "eksāmenos",
+        "eksāmena",
+        "eksāmenu",
+        "eksāmenu"
+    ]
+},
+{
+    "cql": "lemma=\"veikt\"",
+    "prompt": "leksēmu \"veikt\"",
+    "type": "L",
+    "response": [
+        "veikts",
+        "veikto",
+        "veic",
+        "veikti",
+        "veikta"
+    ]
+},
+{
+    "cql": "lemma=\"saņemt\"",
+    "prompt": "leksēmu \"saņemt\"",
+    "type": "L",
+    "response": [
+        "saņems",
+        "saņemt",
+        "saņem",
+        "saņems",
+        "saņemta"
+    ]
+},
+{
+    "cql": "lemma=\"atbalstīt\"",
+    "prompt": "leksēmu \"atbalstīt\"",
+    "type": "L",
+    "response": [
+        "atbalstīja",
+        "atbalsta",
+        "atbalstāma",
+        "atbalsta",
+        "atbalsta"
+    ]
+},
+{
+    "cql": "lemma=\"gūt\"",
+    "prompt": "leksēmu \"gūt\"",
+    "type": "L",
+    "response": [
+        "gūtu",
+        "guvis",
+        "gūst",
+        "gūst",
+        "gūtas"
+    ]
+},
+{
+    "cql": "lemma=\"ņemt\"",
+    "prompt": "leksēmu \"ņemt\"",
+    "type": "L",
+    "response": [
+        "jāņem",
+        "ņemot",
+        "Ņemot",
+        "ņemot",
+        "Ņemot"
+    ]
+},
+{
+    "cql": "lemma=\"noteikt\"",
+    "prompt": "leksēmu \"noteikt\"",
+    "type": "L",
+    "response": [
+        "noteikta",
+        "noteikti",
+        "noteikta",
+        "noteikt",
+        "noteikt"
+    ]
+},
+{
+    "cql": "lemma=\"pieņemt\"",
+    "prompt": "leksēmu \"pieņemt\"",
+    "type": "L",
+    "response": [
+        "pieņemts",
+        "pieņemamu",
+        "pieņemts",
+        "pieņemts",
+        "pieņemams"
+    ]
+},
+{
+    "cql": "lemma=\"iegūt\"",
+    "prompt": "leksēmu \"iegūt\"",
+    "type": "L",
+    "response": [
+        "iegūtajām",
+        "iegūtas",
+        "iegūta",
+        "iegūt",
+        "iegūt"
+    ]
+},
+{
+    "cql": "lemma=\"sākt\"",
+    "prompt": "leksēmu \"sākt\"",
+    "type": "L",
+    "response": [
+        "Sākot",
+        "sāk",
+        "sāk",
+        "sākam",
+        "sākot"
+    ]
+},
+{
+    "cql": "lemma=\"izmantot\"",
+    "prompt": "leksēmu \"izmantot\"",
+    "type": "L",
+    "response": [
+        "izmantotas",
+        "izmantotajām",
+        "izmantota",
+        "jāizmanto",
+        "izmantots"
+    ]
+},
+{
+    "cql": "lemma=\"gads\"",
+    "prompt": "leksēmu \"gads\"",
+    "type": "L",
+    "response": [
+        "gados",
+        "gadu",
+        "gadiem",
+        "gadiem",
+        "gadi"
+    ]
+},
+{
+    "cql": "lemma=\"daļa\"",
+    "prompt": "leksēmu \"daļa\"",
+    "type": "L",
+    "response": [
+        "daļā",
+        "daļu",
+        "daļas",
+        "daļā",
+        "daļā"
+    ]
+},
+{
+    "cql": "lemma=\"valsts\"",
+    "prompt": "leksēmu \"valsts\"",
+    "type": "L",
+    "response": [
+        "valsts",
+        "valsts",
+        "valsts",
+        "valstī",
+        "Valsts"
+    ]
+},
+{
+    "cql": "lemma=\"diena\"",
+    "prompt": "leksēmu \"diena\"",
+    "type": "L",
+    "response": [
+        "dienas",
+        "dienām",
+        "dienā",
+        "dienai",
+        "diena"
+    ]
+},
+{
+    "cql": "lemma=\"cilvēks\"",
+    "prompt": "leksēmu \"cilvēks\"",
+    "type": "L",
+    "response": [
+        "cilvēka",
+        "cilvēkam",
+        "cilvēks",
+        "cilvēks",
+        "cilvēki"
+    ]
+},
+{
+    "cql": "lemma=\"laiks\"",
+    "prompt": "leksēmu \"laiks\"",
+    "type": "L",
+    "response": [
+        "laikā",
+        "laikā",
+        "laika",
+        "laika",
+        "laikā"
+    ]
+},
+{
+    "cql": "lemma=\"jautājums\"",
+    "prompt": "leksēmu \"jautājums\"",
+    "type": "L",
+    "response": [
+        "jautājumus",
+        "jautājumi",
+        "jautājumiem",
+        "jautājumiem",
+        "jautājumiem"
+    ]
+},
+{
+    "cql": "lemma=\"darbs\"",
+    "prompt": "leksēmu \"darbs\"",
+    "type": "L",
+    "response": [
+        "darba",
+        "darba",
+        "darbu",
+        "darbi",
+        "darbs"
+    ]
+},
+{
+    "cql": "lemma=\"bērns\"",
+    "prompt": "leksēmu \"bērns\"",
+    "type": "L",
+    "response": [
+        "bērna",
+        "bērns",
+        "bērniem",
+        "bērns",
+        "bērnam"
+    ]
+},
+{
+    "cql": "lemma=\"veids\"",
+    "prompt": "leksēmu \"veids\"",
+    "type": "L",
+    "response": [
+        "veidā",
+        "veidā",
+        "veids",
+        "veids",
+        "veidā"
+    ]
+},
+{
+    "cql": "lemma=\"Latvija\"",
+    "prompt": "leksēmu \"Latvija\"",
+    "type": "L",
+    "response": [
+        "Latvijā",
+        "Latvijā",
+        "Latvijā",
+        "Latvijā",
+        "Latvijā"
+    ]
+},
+{
+    "cql": "lemma=\"Jānis\"",
+    "prompt": "leksēmu \"Jānis\"",
+    "type": "L",
+    "response": [
+        "Jāņa",
+        "Jāņa",
+        "Jāņa",
+        "Jāņiem",
+        "Jānis"
+    ]
+},
+{
+    "cql": "lemma=\"Rīga\"",
+    "prompt": "leksēmu \"Rīga\"",
+    "type": "L",
+    "response": [
+        "Rīgā",
+        "Rīgas",
+        "Rīgā",
+        "Rīga",
+        "Rīga"
+    ]
+},
+{
+    "cql": "lemma=\"Krievija\"",
+    "prompt": "leksēmu \"Krievija\"",
+    "type": "L",
+    "response": [
+        "Krievijā",
+        "Krievija",
+        "Krievijā",
+        "Krievijas",
+        "Krievijas"
+    ]
+},
+{
+    "cql": "lemma=\"Saeima\"",
+    "prompt": "leksēmu \"Saeima\"",
+    "type": "L",
+    "response": [
+        "Saeima",
+        "Saeimā",
+        "Saeimas",
+        "Saeimā",
+        "Saeimā"
+    ]
+},
+{
+    "cql": "lemma=\"Lietuva\"",
+    "prompt": "leksēmu \"Lietuva\"",
+    "type": "L",
+    "response": [
+        "Lietuvā",
+        "Lietuvā",
+        "Lietuvā",
+        "Lietuvā",
+        "Lietuvā"
+    ]
+},
+{
+    "cql": "lemma=\"Vācija\"",
+    "prompt": "leksēmu \"Vācija\"",
+    "type": "L",
+    "response": [
+        "Vācijā",
+        "Vācija",
+        "Vācijas",
+        "Vācijā",
+        "Vācijā"
+    ]
+},
+{
+    "cql": "lemma=\"Ukraina\"",
+    "prompt": "leksēmu \"Ukraina\"",
+    "type": "L",
+    "response": [
+        "Ukrainā",
+        "Ukrainā",
+        "Ukraina",
+        "Ukraina",
+        "Ukrainā"
+    ]
+},
+{
+    "cql": "lemma=\"Andris\"",
+    "prompt": "leksēmu \"Andris\"",
+    "type": "L",
+    "response": [
+        "Andris",
+        "Andris",
+        "Andra",
+        "Andra",
+        "Andris"
+    ]
+},
+{
+    "cql": "lemma=\"Aleksandrs\"",
+    "prompt": "leksēmu \"Aleksandrs\"",
+    "type": "L",
+    "response": [
+        "Aleksandra",
+        "Aleksandra",
+        "Aleksandram",
+        "Aleksandra",
+        "Aleksandru"
+    ]
+},
+{
+    "cql": "lemma=\"liels\"",
+    "prompt": "leksēmu \"liels\"",
+    "type": "L",
+    "response": [
+        "lielu",
+        "liela",
+        "lielāki",
+        "liela",
+        "lielākas"
+    ]
+},
+{
+    "cql": "lemma=\"labs\"",
+    "prompt": "leksēmu \"labs\"",
+    "type": "L",
+    "response": [
+        "labā",
+        "labākā",
+        "labu",
+        "laba",
+        "labākas"
+    ]
+},
+{
+    "cql": "lemma=\"jauns\"",
+    "prompt": "leksēmu \"jauns\"",
+    "type": "L",
+    "response": [
+        "jauna",
+        "jaunajai",
+        "jauni",
+        "jaunā",
+        "jaunā"
+    ]
+},
+{
+    "cql": "lemma=\"mazs\"",
+    "prompt": "leksēmu \"mazs\"",
+    "type": "L",
+    "response": [
+        "maziem",
+        "mazāki",
+        "vismazākā",
+        "mazs",
+        "mazs"
+    ]
+},
+{
+    "cql": "lemma=\"vecs\"",
+    "prompt": "leksēmu \"vecs\"",
+    "type": "L",
+    "response": [
+        "vecāki",
+        "vecākā",
+        "vecajām",
+        "vecām",
+        "vecāko"
+    ]
+},
+{
+    "cql": "lemma=\"augsts\"",
+    "prompt": "leksēmu \"augsts\"",
+    "type": "L",
+    "response": [
+        "augstākās",
+        "augstāko",
+        "augstākās",
+        "augstākās",
+        "augstākās"
+    ]
+},
+{
+    "cql": "lemma=\"iespējams\"",
+    "prompt": "leksēmu \"iespējams\"",
+    "type": "L",
+    "response": [
+        "Iespējams",
+        "iespējams",
+        "iespējams",
+        "iespējams",
+        "iespējams"
+    ]
+},
+{
+    "cql": "lemma=\"svarīgs\"",
+    "prompt": "leksēmu \"svarīgs\"",
+    "type": "L",
+    "response": [
+        "svarīgs",
+        "svarīgs",
+        "svarīga",
+        "svarīgs",
+        "svarīgas"
+    ]
+},
+{
+    "cql": "lemma=\"slikts\"",
+    "prompt": "leksēmu \"slikts\"",
+    "type": "L",
+    "response": [
+        "vissliktākie",
+        "sliktas",
+        "slikts",
+        "slikta",
+        "sliktākajā"
+    ]
+},
+{
+    "cql": "lemma=\"nepieciešams\"",
+    "prompt": "leksēmu \"nepieciešams\"",
+    "type": "L",
+    "response": [
+        "nepieciešams",
+        "nepieciešama",
+        "nepieciešams",
+        "nepieciešams",
+        "nepieciešams"
+    ]
+},
+{
+    "cql": "lemma=\"daudz\"",
+    "prompt": "leksēmu \"daudz\"",
+    "type": "L",
+    "response": [
+        "vairāk",
+        "daudz",
+        "daudz",
+        "vairāk",
+        "visvairāk"
+    ]
+},
+{
+    "cql": "lemma=\"tad\"",
+    "prompt": "leksēmu \"tad\"",
+    "type": "L",
+    "response": [
+        "tad",
+        "tad",
+        "tad",
+        "tad",
+        "tad"
+    ]
+},
+{
+    "cql": "lemma=\"tāpēc\"",
+    "prompt": "leksēmu \"tāpēc\"",
+    "type": "L",
+    "response": [
+        "tāpēc",
+        "Tāpēc",
+        "tāpēc",
+        "tāpēc",
+        "tāpēc"
+    ]
+},
+{
+    "cql": "lemma=\"vienkārši\"",
+    "prompt": "leksēmu \"vienkārši\"",
+    "type": "L",
+    "response": [
+        "vienkārši",
+        "vienkārši",
+        "vienkārši",
+        "vienkārši",
+        "vienkārši"
+    ]
+},
+{
+    "cql": "lemma=\"tagad\"",
+    "prompt": "leksēmu \"tagad\"",
+    "type": "L",
+    "response": [
+        "Tagad",
+        "tagad",
+        "tagad",
+        "tagad",
+        "tagad"
+    ]
+},
+{
+    "cql": "lemma=\"bieži\"",
+    "prompt": "leksēmu \"bieži\"",
+    "type": "L",
+    "response": [
+        "bieži",
+        "visbiežāk",
+        "bieži",
+        "biežāk",
+        "visbiežāk"
+    ]
+},
+{
+    "cql": "lemma=\"kur\"",
+    "prompt": "leksēmu \"kur\"",
+    "type": "L",
+    "response": [
+        "kur",
+        "kur",
+        "kur",
+        "kur",
+        "kur"
+    ]
+},
+{
+    "cql": "lemma=\"tur\"",
+    "prompt": "leksēmu \"tur\"",
+    "type": "L",
+    "response": [
+        "tur",
+        "tur",
+        "tur",
+        "tur",
+        "tur"
+    ]
+},
+{
+    "cql": "lemma=\"tādēļ\"",
+    "prompt": "leksēmu \"tādēļ\"",
+    "type": "L",
+    "response": [
+        "tādēļ",
+        "Tādēļ",
+        "Tādēļ",
+        "tādēļ",
+        "tādēļ"
+    ]
+},
+{
+    "cql": "lemma=\"kopā\"",
+    "prompt": "leksēmu \"kopā\"",
+    "type": "L",
+    "response": [
+        "kopā",
+        "kopā",
+        "kopā",
+        "kopā",
+        "kopā"
+    ]
+},
+{
+    "cql": "lemma=\"projekts\"",
+    "prompt": "leksēmu \"projekts\"",
+    "type": "L",
+    "response": [
+        "projekta",
+        "projekta",
+        "projekts",
+        "projekts",
+        "projektu"
+    ]
+},
+{
+    "cql": "lemma=\"tāpēc\"",
+    "prompt": "leksēmu \"tāpēc\"",
+    "type": "L",
+    "response": [
+        "tāpēc",
+        "Tāpēc",
+        "tāpēc",
+        "tāpēc",
+        "tāpēc"
+    ]
+},
+{
+    "cql": "lemma=\"bērns\"",
+    "prompt": "leksēmu \"bērns\"",
+    "type": "L",
+    "response": [
+        "bērna",
+        "bērns",
+        "bērniem",
+        "bērns",
+        "bērnam"
+    ]
+},
+{
+    "cql": "lemma=\"nodrošināt\"",
+    "prompt": "leksēmu \"nodrošināt\"",
+    "type": "L",
+    "response": [
+        "nenodrošina",
+        "nodrošinot",
+        "nodrošina",
+        "nodrošinātu",
+        "nodrošināta"
+    ]
+},
+{
+    "cql": "lemma=\"trīsdimensiju\"",
+    "prompt": "leksēmu \"trīsdimensiju\"",
+    "type": "L",
+    "response": [
+        "trīsdimensiju",
+        "trīsdimensiju",
+        "trīsdimensiju",
+        "trīsdimensiju",
+        "trīsdimensiju"
+    ]
+}
+]
